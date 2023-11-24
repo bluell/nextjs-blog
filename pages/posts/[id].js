@@ -36,7 +36,9 @@ export default function Post({ postData }) {
       </article>
       <form action='/api/comment' method='post'>
         <textarea name='comment' id='comment' cols='30' rows='10' />
-        <button type='submit'>Submit</button>
+        <div>
+          <button type='submit'>Submit</button>
+        </div>
       </form>
     </Layout>
   );
